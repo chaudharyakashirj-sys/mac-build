@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      -       - name: Build macOS DMG
+      - name: Build macOS DMG
         run: |
           npm run build
           npx electron-builder --publish never
